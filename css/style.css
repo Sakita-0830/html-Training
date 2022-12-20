@@ -1,0 +1,287 @@
+/*
+// Webフォント
+* {
+  line-height: 1;
+}
+.number__child {
+  padding-left: 40px;
+}
+.number__parent:nth-of-type(3n) {
+  color: red;
+}
+.number__child:nth-of-type(n + 2) {
+  color: blue;
+}
+p{
+  font-family: 'Gorditas', cursive;
+  font-size:60px
+}
+h2{
+  font-family: 'Noto Serif JP', serif;
+}
+
+// 背景色と背景画像 問題
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.bg {
+    background-image: url("../img/firstview.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: bottom;
+
+  height: 700px;
+}
+*/
+
+/* 横幅と高さ 問題 */
+/*
+img {
+  width:100vw;
+  height:100vh;
+}
+.parrent{
+  width:500px;
+  height:500px;
+}
+.red{
+  width:100%;
+  height:50%;
+  background-color:red;
+  position:top;
+}
+.blue{
+  width:100%;
+  height:50%;
+  background-color:blue;
+  position:bottom;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*/
+/* 余白 
+.block {
+  background-color:red;
+  width:400px;
+  height:200px;
+  margin:50px auto;
+}
+*/
+
+/* 枠線と角丸
+.mark {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    border-radius:60px 0 60px 0;
+}
+*/
+
+/* 影 
+.shadow{
+  background-color: red;
+  width:200px;
+  height:200px;
+  box-shadow: 10px 10px 0 black;
+}
+*/
+
+/* 練習問題１
+.bottom {
+  width:200px;
+  padding:10px 0;
+  color: #fff;
+  background:linear-gradient(90deg,#ff5800,#8b00be);
+  text-align: center;
+  border-radius: 30px;
+  margin: 100px auto 0;
+  box-shadow: 0 5px 0 rgba(255,0,0,0.2);
+  display: block;
+}
+*/
+
+/* 練習問題２ + Flexbox 問題*/
+
+.card{
+  width:30%;
+  margin: 100px auto 0;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.picture{
+  width: 100%;
+}
+.content{
+  padding: 15px 25px;
+}
+.category{
+  padding: 5px 10px;
+  background-color: #008888;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.text{
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+.footer{
+  font-size: 14px;
+  text-align: right;
+}
+.hashTag{
+  width: 360px;
+  color: #008888;
+  font-size: 14px;
+  margin: 0px 0px 15px auto;
+}
+.date{
+    display: inline-block;
+    margin-left: 20px;
+    color: #888888;
+}
+.flexbox{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* Positon 問題
+.Training{
+  position: relative;
+}
+.image{
+  margin: 0 0 0 auto;
+  width: 50%;
+
+}
+.content{
+  position: absolute;
+  font-size: 50px;
+  top: 50%;
+  left: 20%;
+}
+*/
+
+/* float 問題
+.float {
+  max-width: 760px;
+  width: 760%;
+  margin: 60px auto;
+}
+.float__image{
+  width: 400px;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.titile{
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+img{
+  width: 100%;
+}
+*/
+
+/* CSS Grid Layout
+.grid{
+  display: grid;
+  grid-template-rows: 300px 300px 100px 200px;
+  grid-template-columns: 2fr 2fr 2fr 1fr;
+}
+.grid div {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+}
+.box1{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color: rgb(250, 0, 0);
+}
+.box2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background-color: rgb(250, 142, 0);
+}
+.box3 {
+  grid-column: 2/4;
+  grid-row: 1/2;
+  background-color: rgb(225, 250, 0);
+}
+.box4 {
+  grid-column: 2/4;
+  grid-row: 2/3;
+  background-color: rgb(142, 250, 0);
+}
+.box5 {
+  grid-column: 4/5;
+  grid-row: 1/4;
+  background-color: rgb(42, 250, 0);
+}
+.box6 {
+  grid-column: 1/4;
+  grid-row: 3/4;
+  background-color: rgb(0, 250, 208);
+}
+.box7 {
+  grid-column: 1/3;
+  grid-row: 4/5;
+  background-color: rgb(0, 117, 250);
+}
+.box8 {
+  grid-column: 3/4;
+  grid-row: 4/5;
+  background-color: rgb(171, 0, 250);
+}
+*/
+
+/* 議事要素 問題 
+.bottom{
+    position: relative;
+    background-color: #55bbbb;
+    width: 200px;
+    display: block;
+    padding: 18px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    margin: 100px auto;
+}
+.bottom::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    background: url(/img/mail.svg) no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    transform: translate(0, -50%);
+}
+.bottom::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  background: url(img/download__icon.svg) no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  transform: translate(0, 50%) rotate(-90deg);
+}
+*/
+
